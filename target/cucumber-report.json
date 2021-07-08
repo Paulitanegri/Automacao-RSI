@@ -1,0 +1,104 @@
+[
+  {
+    "line": 5,
+    "elements": [
+      {
+        "start_timestamp": "2021-07-08T02:04:47.941Z",
+        "line": 7,
+        "name": "Login do usuario",
+        "description": "",
+        "id": "login-do-usuario;login-do-usuario",
+        "type": "scenario",
+        "keyword": "Cenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2477701700,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "que eu eu esteja no site \"http://advantageonlineshopping.com/#/\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"http://advantageonlineshopping.com/#/\"",
+                  "offset": 25
+                }
+              ],
+              "location": "Steps.Testes.que_eu_eu_esteja_no_site(java.lang.String)"
+            },
+            "keyword": "Dado "
+          },
+          {
+            "result": {
+              "duration": 8454262600,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "eu clicar \u003cperfil\u003e",
+            "match": {
+              "location": "Steps.Testes.eu_clicar_perfil()"
+            },
+            "keyword": "Quando "
+          },
+          {
+            "result": {
+              "duration": 2073825800,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "preencher  usuario",
+            "match": {
+              "location": "Steps.Testes.preencher_usuario()"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 2088364700,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "preencher senha",
+            "match": {
+              "location": "Steps.Testes.preecnher_senha()"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 4435585100,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "login realizado",
+            "match": {
+              "location": "Steps.Testes.login_realizado()"
+            },
+            "keyword": "Entao "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@login"
+          }
+        ]
+      }
+    ],
+    "name": "Login do usuario",
+    "description": "",
+    "id": "login-do-usuario",
+    "keyword": "Funcionalidade",
+    "uri": "file:src/test/resources/feature/login.feature",
+    "tags": [
+      {
+        "name": "@login",
+        "type": "Tag",
+        "location": {
+          "line": 4,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
